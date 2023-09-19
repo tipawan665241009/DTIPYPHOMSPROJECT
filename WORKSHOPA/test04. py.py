@@ -1,0 +1,20 @@
+#รับค่า คือ หยุดให้ user ป้อนทางเเป้่นพิมพ์
+#variabie (ตัวเเปร)
+
+
+#การเเปลงข้อมูล (CASTING/type conversion) -> Str( ), int( ) , FIOAT( )
+stu_id = intput("ป้อน STUDENT ID:")
+stuName = input ("ป้อน STUDENT NAME:")
+stu_birth_yaer = ("ป้อน STUDENT Birth Year:")
+print ("---------------------")
+print(f"ยินดีต้อนรับ (Stu_id) {stuName} สู้ SAU")
+print(f"คุณเกิดปี{stu_birth_yaer} เเปลว่าคุณอายุ",2023 - int(stu_birth_yaer)}ปี")
+print("ใช้ , ------------------")
+print("ยินดีต้อนรับ",stu_id,stuName,"สู้ sau")
+print(คุณเกิดปี", STU_birth_year,เเปลว่าคุณอายุ",2023- int(stu_birth_yaer),"ปี")
+print("ใช้ + ---------------------")
+print("ยินดีต้อนรับ"+Stu_id+" "+stuName+"สู้ SAU")
+print("คุณเกิดปี"+stu_birth_yaer+"แปลว่าอายุ"+(2023-int(STU_birth_year))+"ปี")
+print("ใช้ เมธอด format----------------")
+print("ยินดีต้อนรับ {} {} สู้ sau".format(Stu_id,stuName))
+print("คุณเกิดปี {} แปลว่าคุณอายุ {}ปี".format(STU_birth_year,2023 - INT(STU_birth_year)))
